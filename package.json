@@ -1,0 +1,33 @@
+{
+  "name": "testecom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "serve": "node build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TC117/TestEcom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TC117/TestEcom/issues"
+  },
+  "homepage": "https://github.com/TC117/TestEcom#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^5.13.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.15.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
